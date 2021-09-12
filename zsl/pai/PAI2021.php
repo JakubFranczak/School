@@ -12,7 +12,7 @@
 
     echo $calkowite;
     echo $bin;
-    
+
     $oct=011;
     echo $oct;
 
@@ -52,6 +52,9 @@
 
     echo "Imię: \$name";
 
+
+
+//test1
 
 
 ?>
