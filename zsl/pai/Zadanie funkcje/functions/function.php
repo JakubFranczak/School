@@ -10,6 +10,6 @@
         $name = ucfirst(strtolower(trim($name)));
         $name = str_replace(" ","",$name);
         $name= substr($name,0,$length);
-        return "Imię po zmianach: ".?><span style="color:red"><?php $name ?></span>;
+        return "Imię po zmianach: ".$name;
     }
 ?>
