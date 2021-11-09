@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1">
+        <a href="egzamintest.html"><img id="img" src="baner.jpeg"></a>
+            <div id="div2">
+                <ul>MENU
+                    <li><a href="opis.html">Opis</a></li>
+                    <li><a href="jakaliczba.html">Jaka to liczba?</a></li>
+                    <li><a href="liczbyzzakresu.html"> Liczby całkowite z zakresu</a></li>
+                </ul>
+            </div>
+            <div id="div3">
+                <script>
+                    var zawartosc = document.getElementById("div3");
+                    function wypiszliczby() {
+                        var liczbapoczatkowa = parseInt(prompt("Podaj liczbę początkową: "));
+                        var liczbakoncowa = parseInt(prompt("Podaj liczbę końcową: "));
+                        var i = liczbapoczatkowa;
+                        if(liczbapoczatkowa < liczbakoncowa){
+                            do {
+                            zawartosc.innerHTML += " "+i+" ";
+                            i++;
+                        } while (i<=liczbakoncowa);
+                        }else{
+                            do {
+                            zawartosc.innerHTML += " "+i+" ";
+                            i--;
+                        } while (i>=liczbakoncowa);
+                        }
+                    }
+                    wypiszliczby();
+                </script>
+            </div>
+    </div>
+</body>
+</html>

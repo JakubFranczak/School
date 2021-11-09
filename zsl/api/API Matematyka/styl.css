@@ -1,0 +1,36 @@
+#div1{
+    width: 1204px;
+    margin: auto;
+}
+#img{
+    border: 2px solid black;
+}
+#div2{
+    width: calc(40% - 4px);
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    margin-top: -4px;
+}
+#div3{
+    width: calc(60% - 4px);
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    margin-top: -4px;
+}
+ul{
+    text-align: Left;
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 40px;
+}
+#div3{
+    font-size: 30px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
